@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD809AF9241FDC8200C74A9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD809AF8241FDC8200C74A9B /* main.m */; };
 		BD809B01241FDD3400C74A9B /* LSILog.m in Sources */ = {isa = PBXBuildFile; fileRef = BD809B00241FDD3400C74A9B /* LSILog.m */; };
+		BD809B04241FE03700C74A9B /* SyntaxBasics.m in Sources */ = {isa = PBXBuildFile; fileRef = BD809B03241FE03700C74A9B /* SyntaxBasics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		BD809AF8241FDC8200C74A9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD809AFF241FDD3400C74A9B /* LSILog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSILog.h; sourceTree = "<group>"; };
 		BD809B00241FDD3400C74A9B /* LSILog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSILog.m; sourceTree = "<group>"; };
+		BD809B02241FE03700C74A9B /* SyntaxBasics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyntaxBasics.h; sourceTree = "<group>"; };
+		BD809B03241FE03700C74A9B /* SyntaxBasics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyntaxBasics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				BD809AF8241FDC8200C74A9B /* main.m */,
+				BD809B02241FE03700C74A9B /* SyntaxBasics.h */,
+				BD809B03241FE03700C74A9B /* SyntaxBasics.m */,
 				BD809AFF241FDD3400C74A9B /* LSILog.h */,
 				BD809B00241FDD3400C74A9B /* LSILog.m */,
 			);
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD809B04241FE03700C74A9B /* SyntaxBasics.m in Sources */,
 				BD809AF9241FDC8200C74A9B /* main.m in Sources */,
 				BD809B01241FDD3400C74A9B /* LSILog.m in Sources */,
 			);
