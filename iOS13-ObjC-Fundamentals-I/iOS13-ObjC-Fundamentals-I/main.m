@@ -37,7 +37,9 @@ int main(int argc, const char * argv[]) {
         // %li = long integer
         NSLog(@"number: %li", basics.largeNumber.longValue);
 
-        //        basics.explorePrimitives() call a function in Swift
+        //basics.explorePrimitives() call a function in Swift
+        
+        [basics explorePrimitives];
         
     }
     return 0;

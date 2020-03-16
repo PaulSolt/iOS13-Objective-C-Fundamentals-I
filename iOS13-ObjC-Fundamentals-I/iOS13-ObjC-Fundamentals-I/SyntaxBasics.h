@@ -27,9 +27,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SyntaxBasics : NSObject
 
+// Properties
+
 @property NSNumber *largeNumber; // ; must end almost every line
 
+// Initializers
 - (instancetype)initWithLargeNumber:(NSNumber *)largeNumber;
+
+// Methods
+
+// - = instance method (actual object)
+// + = class method (blueprint)
+- (void)explorePrimitives;
 
 @end
 
