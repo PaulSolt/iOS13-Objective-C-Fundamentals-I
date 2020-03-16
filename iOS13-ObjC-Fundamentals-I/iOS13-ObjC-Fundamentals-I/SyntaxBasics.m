@@ -98,4 +98,52 @@
     NSLog(@"---------------End Primitives---------------\n\n");
 }
 
+// Don't do this, it's not good style
+//- ( void ) exploreObjects {
+
+// Do this instead
+- (void)exploreObjects {
+    //
+    // Objects (class-based types)
+    //
+
+    NSLog(@"---------------Objects---------------");
+
+    // NSString
+    NSString *lambda = @"Go all in";
+    NSLog(@"%@", lambda);  // %@ = Objective-C object
+
+    // String concatenation/interpolation
+    // "The length is " + "\(94)" // Swift
+
+    // @"hello " + @"world"; // Invalid operands to binary expression ('NSString *' and 'NSString *')
+
+    // Always need a * with object types
+    NSString *label = @"The length is";  // Error without *: Interface type cannot be statically allocated
+    int length = 94;
+    NSString *lengthString = [NSString stringWithFormat:@"%@ %d", label, length];
+    NSLog(@"%@", lengthString);
+    
+    // `id` type used to store an object of any type
+    // AnyObject
+    
+    id mysteryObject = @"An NSString Object";
+    NSLog(@"%@", [mysteryObject description]);
+    
+    mysteryObject = @[@"Apple", @"Microsoft"];
+    NSLog(@"%@", [mysteryObject description]);
+    
+    NSLog(@"---------------End Objects---------------");
+}
+
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains {
+    
+}
+
+- (void)exploreNumbers {
+    
+}
+
+
+
 @end

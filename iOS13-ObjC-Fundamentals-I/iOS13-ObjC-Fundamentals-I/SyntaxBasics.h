@@ -40,6 +40,12 @@ NS_ASSUME_NONNULL_BEGIN
 // + = class method (blueprint)
 - (void)explorePrimitives;
 
+- (void)exploreObjects;
+
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains;
+
+- (void)exploreNumbers;
+
 @end
 
 NS_ASSUME_NONNULL_END
